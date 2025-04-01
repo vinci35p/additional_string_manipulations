@@ -10,6 +10,6 @@ for i in range(len(user_sentence) - len(user_word) + 1):
         print(f"The first location of {user_word} in the sentence, is at index: {i}")
         break
 
-# Else, if not found, print not found in list
+# Else, if not found, print not found in sentence
     else:
         print(f"The indicated character was not found in the sentence.")
