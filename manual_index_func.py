@@ -1,9 +1,9 @@
-# Input several characters
+# Input sentence
 
-# Input the character to be indexed
+# Input desired word to be indexed
 
-# Find the character in the list
+# Find desired in provided sentence, then determine its placement
 
-# Print the placement of character in list
+# Print if it is found and its placement in the sentence
 
 # If not found, print not found in list
