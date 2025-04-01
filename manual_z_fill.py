@@ -5,7 +5,7 @@ user_input = str(input("Enter any string characters: "))
 zero_num = int(input("Enter how many zeros to add: "))
 
 # Add zeros at the beginning of the string
-modified_char = user_input.rjust(zero_num, '0')
+modified_char = user_input.rjust(zero_num + len(user_input), '0')
 
 # Print modified string
 print(modified_char)
